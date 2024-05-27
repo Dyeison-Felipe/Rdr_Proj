@@ -1,0 +1,112 @@
+.container{
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 0.1em solid #000;
+}
+
+
+header{
+  background-color: #333;
+  width: 100%;
+}
+
+.logo img{
+  width: 7em;
+  cursor: pointer;
+}
+
+.menu{
+  height: 2em;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.menu nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+
+}
+
+.menu nav a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu nav a::after{
+  display: block;
+  content: " ";
+  width:0em ;
+  height: 0.3em;
+  background: linear-gradient(45deg, #FF2500, #FF7100);
+  border: none;
+  border-radius: 0.3em;
+  transition: width 0.5s;
+}
+
+.menu nav a:hover::after{
+  width: 2em;
+}
+
+.acess{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:1em;
+}
+
+.acess a{
+  width: 8em;
+  height: 3em;
+  background: linear-gradient(45deg, #FF2500, #FF7100);
+  color: #FFF;
+  border: none;
+  border-radius: 0.7em;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.acess a{
+  text-decoration: none;
+  border: 1px solid #000;
+  padding: 0.5em 1em;
+}
+
+.icon{
+  display: none;
+}
+
+@media screen and (max-width:850px) {
+  .acess{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:640px){
+  .icon{
+    display: block;
+  }
+
+  .menu nav{
+    display: none;
+  }
+
+  .acess{
+    display: none;
+  }
+}
+
