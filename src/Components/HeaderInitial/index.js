@@ -13,9 +13,9 @@ const Index = () => {
         </div>
         <div className="menu">
           <nav>
-            <Link to="">Home</Link>
-            <Link to="">Planos</Link>
-            <Link to="">Contato</Link>
+            <Link to="/">Home</Link>
+            <Link to="/">Planos</Link>
+            <Link to="/">Contato</Link>
           </nav>
         </div>
         <div className="acess">
