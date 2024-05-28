@@ -5,3 +5,30 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width:850px) {
+  .acess{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:640px){
+  .icon{
+    display: block;
+  }
+
+  .menu nav{
+    display: none;
+  }
+
+  .acess{
+    display: none;
+  }
+
+  .search{
+    flex-direction: column;
+  }
+
+  #rodape{
+    flex-direction: column;
+  }
+}
