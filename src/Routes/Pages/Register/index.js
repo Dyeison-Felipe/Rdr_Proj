@@ -71,7 +71,7 @@ const Index = () => {
               <div className="text-center">
                 <span className="txt1">Já possui conta? </span>
                 <Link className="txt2" to="/login">
-                  Criar conta
+                  Acessar conta
                 </Link>
               </div>
             </form>
