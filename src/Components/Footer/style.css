@@ -1,6 +1,6 @@
 #rodape{
   width: 100%;
-  height: 7rem;
+  height: auto;
   border-top: 0.09rem solid black;
   display:flex;
   justify-content: space-evenly;
