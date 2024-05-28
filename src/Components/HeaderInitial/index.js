@@ -19,9 +19,9 @@ const Index = () => {
           </nav>
         </div>
         <div className="acess">
-          <Link to='/login'>Login</Link>
+          <Link className="btn-link" to='/login'>Login</Link>
 
-          <Link to='/register'>Registre-se</Link>
+          <Link className="btn-link" to='/register'>Registre-se</Link>
         </div>
         <div className="icon">
           <FiAlignJustify />
