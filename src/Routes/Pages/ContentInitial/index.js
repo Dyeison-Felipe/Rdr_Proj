@@ -6,11 +6,6 @@ const index = () => {
     <>
       <HeaderInitial/>
 
-      <div>
-        <div>
-          <img src={Fone} alt="" />
-        </div>
-      </div>
     </>
   )
 }

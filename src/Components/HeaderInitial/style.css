@@ -25,7 +25,26 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 1em;
+}
 
+.menu .search{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.menu .search input{
+  border-radius: 1em;
+  height: 2.5em;
+  width: 15em;
+  padding-left: 1em;
+  color: #000;
+  border: none;
+  outline: none;
 }
 
 .menu nav{
@@ -57,6 +76,26 @@ header{
   width: 2em;
 }
 
+.category-menu {
+  position: relative;
+}
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #000;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.submenu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
 .acess{
   width: auto;
   display: flex;
@@ -65,7 +104,7 @@ header{
   gap:1em;
 }
 
-.acess a{
+.btn-link{
   width: 8em;
   height: 3em;
   background: linear-gradient(45deg, #FF2500, #FF7100);
@@ -90,6 +129,8 @@ header{
   display: none;
 }
 
+
+
 @media screen and (max-width:850px) {
   .acess{
     flex-direction: column;
@@ -107,6 +148,10 @@ header{
 
   .acess{
     display: none;
+  }
+
+  .search{
+    flex-direction: column;
   }
 }
 
