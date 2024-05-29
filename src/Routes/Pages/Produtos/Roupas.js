@@ -3,7 +3,8 @@ import Book from '../components/Book';
 import Modal from '../components/Modal';
 import Pagination from '../components/Pagination';
 import roupas from '../data/roupas';
-import '../styless/styles.css';
+import './styles.css';
+
 
 const Roupas = () => {
   const [modalData, setModalData] = useState(null);

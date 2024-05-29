@@ -3,7 +3,8 @@ import Book from '../components/Book';
 import Modal from '../components/Modal';
 import Pagination from '../components/Pagination';
 import eletronicos from '../data/eletronicos';
-import '../styless/styles.css';
+import './styles.css';
+
 
 const Eletronicos = () => {
   const [modalData, setModalData] = useState(null);
