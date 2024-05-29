@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from '../components/Carousel';
 import AboutSite from '../components/AboutSite';
 import Developers from '../components/Developers';
-import '../styles/styles.css';
+import '../styless/styles.css';
 
 const Home = () => {
   return (

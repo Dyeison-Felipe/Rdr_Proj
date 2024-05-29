@@ -3,7 +3,7 @@ import Book from '../components/Book';
 import Modal from '../components/Modal';
 import Pagination from '../components/Pagination';
 import books from '../data/books';
-import '../styles/styles.css';
+import '../styless/styles.css';
 
 const Carros = () => {
   const [modalData, setModalData] = useState(null);
