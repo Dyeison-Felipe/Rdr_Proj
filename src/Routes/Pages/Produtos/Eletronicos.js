@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Book from '../components/Book';
-import Modal from '../components/Modal';
-import Pagination from '../components/Pagination';
-import eletronicos from '../data/eletronicos';
+import Book from '../../../Components/Book';
+import Modal from '../../../Components/Modal';
+import Pagination from '../../../Components/Pagination';
+import eletronicos from '../../../data/eletronicos';
 import './styles.css';
 
 

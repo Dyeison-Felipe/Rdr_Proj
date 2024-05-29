@@ -4,11 +4,13 @@ import Erro from './Routes/Pages/Erro'
 import Login from './Routes/Pages/Login'
 import Register from './Routes/Pages/Register'
 import Footer from './Components/Footer'
+import Produtos from './Routes/Pages/Produtos/Home'
 const RoutesApp = () => {
   return(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<ContentInitial/>}/>
+        <Route path="/produtos" element={<Produtos/>}/>
         <Route path="/erro" element={<Erro/>}/>
         <Route path="/register" element={<Register/>}/>
         <Route path="/login" element={<Login/>}/>

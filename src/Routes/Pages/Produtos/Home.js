@@ -1,16 +1,13 @@
 import React from 'react';
-import Carousel from '../components/Carousel';
-import AboutSite from '../components/AboutSite';
-import Developers from '../components/Developers';
 import './styles.css';
+import Header from '../../../Components/HeaderContent'
 
 
 const Home = () => {
   return (
     <div className="home">
-      <Carousel />
-      <AboutSite />
-      <Developers />
+      <Header/>
+      Olá esse é a página de produtos
     </div>
   );
 };

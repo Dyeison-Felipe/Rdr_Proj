@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import '../HeaderInitial/style.css'
+import "../HeaderInitial/style.css";
 import { FiAlignJustify } from "react-icons/fi";
 import Logo from "../../Images/Site/logo.png";
 
@@ -12,22 +12,26 @@ const Header = () => {
   };
 
   return (
-    <header>
+    <header className="header">
       <div className="container">
         <div className="logo">
           <img src={Logo} alt="" />
         </div>
         <div className="menu">
           <div className="search">
-            <input type="text" placeholder="Pesquisar..."/>
-            <Link className="btn-link" to=''>Pesquisar</Link>
+            <input type="text" placeholder="Pesquisar..." />
+            <Link className="btn-link" to="">
+              Pesquisar
+            </Link>
           </div>
           <nav>
             <Link to="/">Home</Link>
             <Link to="">Planos</Link>
             <Link to="">Contato</Link>
             <div className="category-menu">
-              <Link to="#" onClick={toggleCategoryMenu}>Categoria</Link>
+              <Link to="#" onClick={toggleCategoryMenu}>
+                Categoria
+              </Link>
               {categoryOpen && (
                 <div className="submenu">
                   <Link to="/">Carros</Link>

@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import HeaderInitial from "../../../Components/HeaderInitial";
 import Fone from "../../../Images/Computadores/fone.jpg";
-import Footer from "../../../Components/Footer";
 import "./style.css";
 
 const index = () => {
