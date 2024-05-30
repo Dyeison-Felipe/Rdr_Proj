@@ -1,5 +1,5 @@
 
-.product-container{
+.Dyeison1 .product-container{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,7 @@
   flex-wrap: wrap;
 }
 
-.product{
+.Dyeison1 .product{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,15 +28,15 @@
   transition: transform 0.3s;
 }
 
-.product:hover {
+.Dyeison1 .product:hover {
   transform: scale(1.05);
 }
 
-.product img{
+.Dyeison1 .product img{
   width: 7em;
 }
 
-.btn-content {
+.Dyeison1 .btn-content {
   text-decoration: none;
   font-size: 15px;
   border: none;
@@ -52,18 +52,18 @@
   background: linear-gradient(45deg, #FF2500, #FF7100);
 }
 
-.texto{
+.Dyeison1 .texto{
   padding-top: 5em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.texto p{
+.Dyeison1 .texto p{
   width: 50%;
 }
 
-.plans-container {
+.Dyeison1 .plans-container {
   padding-top: 5em;
   display: flex;
   justify-content: center;
@@ -71,7 +71,7 @@
   margin: 1.2em;
 }
 
-.plan-card {
+.Dyeison1 .plan-card {
   background-color: #fff;
   border: 0.06em solid #ddd; 
   border-radius: 0.5em;
@@ -87,33 +87,33 @@
   align-items: center;
 }
 
-.plan-card:hover {
+.Dyeison1 .plan-card:hover {
   transform: scale(1.05);
 }
 
-.plan-card h3 {
+.Dyeison1 .plan-card h3 {
   font-size: 1.5em; 
   margin-bottom: 0.6em; 
 }
 
-.plan-card .price {
+.Dyeison1 .plan-card .price {
   font-size: 1.2em; 
   color: #333;
   margin-bottom: 0.9em; 
 }
 
-.plan-card ul {
+.Dyeison1 .plan-card ul {
   padding: 0;
   margin-bottom: 1.2em; 
   text-align: left;
   padding-left: 1.8em; 
 }
 
-.plan-card ul li {
+.Dyeison1 .plan-card ul li {
   margin: 0.6em 0; 
 }
 
-.buy-button {
+.Dyeison1 .buy-button {
   background: linear-gradient(45deg, #FF2500, #FF7100);
   border: none;
   color: #fff;

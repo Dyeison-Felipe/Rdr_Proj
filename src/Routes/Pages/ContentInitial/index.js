@@ -5,7 +5,7 @@ import "./style.css";
 
 const index = () => {
   return (
-    <div>
+    <div className="Dyeison1">
       <HeaderInitial />
 
       <div className="product-container">
