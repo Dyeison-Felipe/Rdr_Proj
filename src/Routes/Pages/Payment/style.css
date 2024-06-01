@@ -1,0 +1,156 @@
+.renann{
+    height: 100vh;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to top,#FFFFFF, #FAF9DC,#ffe400);
+}
+
+/* Estilos de Pagamentos Abaixo*/
+
+.renann .pagamento-c{
+    display: flex;
+    width: 100%;
+    gap: 8px;
+    margin-top: 16px;
+    padding: 15px;
+}
+.renann .campos-pagamento-c{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+}
+
+.renann .cupom-desconto-c{
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    background-color: #efefef;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.renann .campo-cupom-c{
+    flex: 1;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #565656;
+}
+.renann .campo-botao-c{
+    width: 120px;
+    color: #efefef;
+    background-color:#327ff2;
+    border-radius: 16px;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+}
+.renann .texto-desconto-c{
+    color: #4e4e4e;
+}
+.renann .formas-pagamento-c{
+    display: flex;
+    gap: 58px;
+    background-color: #efefef;
+    padding: 32px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.renann .pagamento-geral-c{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.renann .pagamento-geral-c{
+    color: #327ff2;
+}
+.renann .selecionar-pagamento-c{
+    display: flex;
+    gap: 4px;
+}
+
+.renann .fiu-eopix{
+    background-color: #00b112;
+    color: #efefef;
+    border-radius: 2px;
+    padding: 1px;
+}
+
+.renann .boleton{
+    color: #1c1c1c;
+
+}
+
+.renann .cupom-desconto{
+    color: #1c1c1c;
+}
+
+/* Barra Lateral de Finalização de Compra*/
+
+.renann .valor-final-c{
+    padding: 64px 16px 16px 16px;
+    background-color: #efefef;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.renann .texto-valor-final-c{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    /* width: 300px; */
+}
+.renann .campo-botao-final-c{
+    width: 100%;
+    color: #efefef;
+    background-color:#327ff2;
+    border-radius: 16px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+}
+.renann .decoracao-texto-final-c{
+    color: #327ff2;
+}
+.renann .decoracao-texto-desconto-c{
+    color: #00910e;
+}
+.renann .h2{
+    padding:15px;
+    justify-content: center;
+    display: flex;
+}
+
+/* Método de Cartão*/
+
+.renann .card-details {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.renann .card-details div {
+    margin-bottom: 10px;
+}
+
+.renann .card-details label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.renann .card-details input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}

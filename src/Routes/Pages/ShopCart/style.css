@@ -1,0 +1,140 @@
+.renann{
+    height: 100vh;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to top,#FFFFFF, #FAF9DC,#ffe400);
+}
+
+/* Layout do Carrinho */
+
+#renann #cabeçalho-principal-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+#renann #area-principal-c{
+    /* width: 920px; */
+    margin: 0 auto;
+    padding: 15px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.renann .meu-carrinho-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.renann .imagem-vendas-c{
+    width: 25px;
+    height: 25px;
+    fill: currentColor;
+}
+.renann .imagem-produto-c{
+    border-radius: 6px;
+    width: 135px;
+}
+.renann .campo-quantidade-c{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color:#4e4e4e;
+}
+.renann .quantidade-produto-c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.renann .quantidade-c{
+    width: 36px;
+    border-radius: 6px;
+    padding: 4px 12px;
+    border: 1px solid #565656;
+}
+.renann .remover-c{
+    text-align: center;
+    color: #565656;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.renann .titulo-produtos-c{
+    display: flex;
+    width: 100%;
+}
+.renann .classe-primeiracoluna-c{
+    width: 50%;
+}
+.renann .classe-segundacoluna-c{
+    width: 20%;
+}
+.renann .classe-terceiracoluna-c{
+    width: 30%;
+    text-align: end;
+}
+.renann .produto-carrinho-c{
+    display: flex;
+    width: 100%;
+    height: 130px;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 16px;
+    background-color: #efefef;
+    padding: 16px;
+}
+
+.renann .descricao-produto-c{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+.renann .informacao-produto-c{
+    display: flex;
+    flex-direction: column;
+}
+
+.renann .primeira-div-c{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    height: 100%;
+}
+.renann .segunda-div-c{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.renann .terceira-div-c{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.renann .cor-produto-c{
+    font-size: 14px;
+}
+.renann .vendedor-c{
+    color: #4e4e4e;
+}
+
+.renann .valor-anterior-c{
+    font-size: 14px;
+    color: #565656;
+    text-decoration: line-through;
+}
+.renann .valor-atual-c{
+    color: #327ff2;
+}
+.renann .formato-valor-c{
+    color: #565656;
+}
