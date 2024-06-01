@@ -34,9 +34,9 @@ const Header = () => {
               </Link>
               {categoryOpen && (
                 <div className="submenu">
-                  <Link to="/">Carros</Link>
-                  <Link to="/">Roupas</Link>
-                  <Link to="/">Computadores</Link>
+                  <Link to="/carro">Carros</Link>
+                  <Link to="/roupas">Roupas</Link>
+                  <Link to="/eletro">Computadores</Link>
                 </div>
               )}
             </div>
