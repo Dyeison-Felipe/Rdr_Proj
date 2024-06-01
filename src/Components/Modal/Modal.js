@@ -14,7 +14,7 @@ const Modal = ({ title, imageSrc, summary, description, closeModal }) => {
             <li key={index}>{item}</li>
           ))}
         </ul>
-        <Link to="/leitura">
+        <Link to="/shop-cart">
           <button className="vis-prod">Comprar</button>
         </Link>
       </div>

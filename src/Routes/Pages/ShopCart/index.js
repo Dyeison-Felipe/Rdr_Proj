@@ -1,7 +1,7 @@
 import "./style.css";
-import { Link } from "react-router-dom";
+
 import HeaderInitial from "../../../Components/HeaderInitial";
-import Footer from "../../../Components/Footer";
+
 
 export default function ShopCart(){
     return(
@@ -28,15 +28,15 @@ export default function ShopCart(){
 
                     <div className="classe-primeiracoluna-c primeira-div-c">
                         <div>
-                            <img className="imagem-produto-c" src="../ProjetoVendas/assets/imagens/Renault Clio 1.0 16v.jpeg"
+                            <img className="imagem-produto-c" src="assetss/imagens/carros/Vectra.jpeg"
                                 width="135" />
                         </div>
                         <div className="descricao-produto-c">
                             <div className="informacao-produto-c">
-                                <strong>Renault Clio 1.0, 16v, 2016, Completo</strong>
+                                <strong>Vectra 94/95 2.0 8v</strong>
                                 <span className="cor-produto-c">Vermelho</span>
                             </div>
-                            <span className="vendedor-c"> Vendido e entregue por Renann Felipe</span>
+                            <span className="vendedor-c">-----------------</span>
                         </div>
                     </div>
 
@@ -54,7 +54,7 @@ export default function ShopCart(){
 
                     <div className="classe-terceiracoluna-c terceira-div-c">
                         <span className="valor-anterior-c">R$ 36.250,00</span>
-                        <span className="valor-atual-c">R$ 34.500,00</span>
+                        <span className="valor-atual-c">R$ 15.000,00</span>
                         <span className="formato-valor-c"> no Dinheiro ou Pix</span>
                     </div>
                 </div>
