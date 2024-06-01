@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Modal = ({ title, imageSrc, summary, closeModal }) => {
+const Modal = ({ title, imageSrc, summary, description, closeModal }) => {
   return (
     <div className="modal" style={{ display: 'block' }}>
       <div className="modal-content">
@@ -8,16 +9,17 @@ const Modal = ({ title, imageSrc, summary, closeModal }) => {
         <img id="modal-image" src={imageSrc} alt={title} />
         <h2 id="modal-title">{title}</h2>
         <p id="modal-summary">{summary}</p>
-        <a href="leitura.html">
-          <button id="ler-livro-modal" className="ler-livro">Comprar</button>
-        </a>
+        <ul id="modal-description">
+          {description.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+        <Link to="/leitura">
+          <button className="vis-prod">Comprar</button>
+        </Link>
       </div>
     </div>
   );
 };
 
-
-
 export default Modal;
-
-

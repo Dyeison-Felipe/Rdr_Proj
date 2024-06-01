@@ -9,21 +9,17 @@ const Pagination = () => {
 
   return (
     <div className="pagination">
-      <a href="#" className="prev">«</a>
+      <button className="prev" onClick={() => handlePageClick(activePage - 1)} disabled={activePage === 1}>«</button>
       {[1, 2, 3].map((page) => (
-        <a
-          href="#"
+        <button
           key={page}
           className={`page ${activePage === page ? 'active' : ''}`}
-          onClick={(e) => {
-            e.preventDefault();
-            handlePageClick(page);
-          }}
+          onClick={() => handlePageClick(page)}
         >
           {page}
-        </a>
+        </button>
       ))}
-      <a href="#" className="next">»</a>
+      <button className="next" onClick={() => handlePageClick(activePage + 1)} disabled={activePage === 3}>»</button>
     </div>
   );
 };
