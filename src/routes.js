@@ -8,7 +8,7 @@ import ShopCart from "./Routes/Pages/ShopCart"
 import Payment from "./Routes/Pages/Payment"
 import OrderPlaced from "./Routes/Pages/OrderPlaced";
 import Produtos from './Routes/Pages/Produtos/Home'
-import Elet from './Routes/Pages/Produtos/Home'
+import Elet from './Routes/Pages/Produtos/Carros'
 
 const RoutesApp = () => {
   return(
