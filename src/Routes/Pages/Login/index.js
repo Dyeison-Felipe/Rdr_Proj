@@ -45,7 +45,7 @@ const Index = () => {
               </div>
 
               <div className="container-login-form-btn">
-                <Link to='/' className="login-form-btn" >Login</Link>
+                <Link to='/produtos' className="login-form-btn" >Login</Link>
               </div>
 
               <div className="text-center">

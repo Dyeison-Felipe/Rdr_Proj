@@ -6,7 +6,7 @@ import { FiAlignJustify } from "react-icons/fi";
 
 const Index = () => {
   return (
-    <header>
+    <header className="Dyeison">
       <div className="container">
         <div className="logo">
           <img src={Logo} alt="" />
@@ -19,9 +19,13 @@ const Index = () => {
           </nav>
         </div>
         <div className="acess">
-          <Link className="btn-link" to='/login'>Login</Link>
+          <Link className="btn-link" to="/login">
+            Login
+          </Link>
 
-          <Link className="btn-link" to='/register'>Registre-se</Link>
+          <Link className="btn-link" to="/register">
+            Registre-se
+          </Link>
         </div>
         <div className="icon">
           <FiAlignJustify />

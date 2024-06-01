@@ -7,11 +7,16 @@ import Footer from './Components/Footer'
 import ShopCart from "./Routes/Pages/ShopCart"
 import Payment from "./Routes/Pages/Payment"
 import OrderPlaced from "./Routes/Pages/OrderPlaced";
+import Produtos from './Routes/Pages/Produtos/Home'
+import Elet from './Routes/Pages/Produtos/Home'
+
 const RoutesApp = () => {
   return(
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<ContentInitial/>}/>
+        <Route path="/co" element={<ContentInitial/>}/>
+        <Route path="/" element={<Elet/>}/>
+        <Route path="/produtos" element={<Produtos/>}/>
         <Route path="/erro" element={<Erro/>}/>
         <Route path="/register" element={<Register/>}/>
         <Route path="/login" element={<Login/>}/>
