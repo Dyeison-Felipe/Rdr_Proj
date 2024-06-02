@@ -1,6 +1,6 @@
 import "./style.css";
 import { Link } from "react-router-dom";
-import HeaderInitial from "../../../Components/HeaderInitial";
+import HeaderContent from "../../../Components/HeaderContent";
 import React, { useState } from "react";
 
 export default function Payment() {
@@ -60,7 +60,7 @@ export default function Payment() {
   return (
     <>
       <div className="renann">
-        <HeaderInitial />
+        <HeaderContent />
         <h2 className="h2">Pagamento</h2>
         <div className="pagamento-c">
           <div className="campos-pagamento-c">
