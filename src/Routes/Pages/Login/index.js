@@ -1,34 +1,37 @@
 import { Link } from "react-router-dom";
-import HeaderInitial from "../../../Components/HeaderInitial";
-import "./style.css";
+import HeaderInitial from "../../../Components/HeaderInitial/index";
 import { useState } from "react";
-import Logo from "../../../Images/Site/logo.png";
+
+import "./style.css";
 
 const Index = () => {
-  const [email, setEmail] = useState("");
+
+  const [usuario, setUsuario] = useState("");
   const [password, setPassword] = useState("");
 
+
   return (
-    <div >
+    <div className="Dyeison1">
       <HeaderInitial />
       <div className="container-access">
         <div className="container-login">
           <div className="wrap-login">
             <form className="login-form">
+              
               <span className="login-form-title"> Bem vindo </span>
 
               <span className="login-form-title">
-                <img src={Logo} alt="Logo RDR" />
+                <img src="/logo.png" alt="Logo RDR" />
               </span>
 
               <div className="wrap-input">
                 <input
-                  className={email !== "" ? "has-val input" : "input"}
+                  className={usuario !== "" ? "has-val input" : "input"}
                   type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  value={usuario}
+                  onChange={(e) => setUsuario(e.target.value)}
                 />
-                <span className="focus-input" data-placeholder="Email"></span>
+                <span className="focus-input" data-placeholder="Usuário"></span>
               </div>
 
               <div className="wrap-input">
@@ -40,12 +43,17 @@ const Index = () => {
                 />
                 <span
                   className="focus-input"
-                  data-placeholder="Password"
+                  data-placeholder="Senha"
                 ></span>
               </div>
 
               <div className="container-login-form-btn">
-                <Link to='/produtos' className="login-form-btn" >Login</Link>
+                <Link 
+                to='/produtos'  
+                className="login-form-btn" 
+                >
+                  Login
+                </Link>
               </div>
 
               <div className="text-center">

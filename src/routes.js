@@ -11,25 +11,24 @@ import Produtos from './Routes/Pages/Produtos/Home'
 import Eletronicos from './Routes/Pages/Produtos/Eletronicos'
 import Roupa from './Routes/Pages/Produtos/Roupas'
 import Carros from "./Routes/Pages/Produtos/Carros";
+import Plans from './Routes/Pages/Planos/plans'
 
 const RoutesApp = () => {
   return(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<ContentInitial/>}/>
-        <Route path="/produtos" element={<Produtos/>}/>
-        <Route path="/erro" element={<Erro/>}/>
+        <Route path="/planos" element={<Plans/>} />
         <Route path="/register" element={<Register/>}/>
         <Route path="/login" element={<Login/>}/>
+        <Route path="/produtos" element={<Produtos/>}/>
         <Route path="/shop-cart" element={<ShopCart/>}/>
         <Route path="/payment" element={<Payment/>}/>
         <Route path="/orderplaced-finalizacao" element={<OrderPlaced/>}/>
-        <Route path="/carro" element={<Carros/>}/>
+        <Route path="/carros" element={<Carros/>}/>
         <Route path="/roupas" element={<Roupa/>}/>
-        <Route path="/eletro" element={<Eletronicos/>}/>
-
-
-
+        <Route path="/eletros" element={<Eletronicos/>}/>
+        <Route path="*" element={<Erro/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

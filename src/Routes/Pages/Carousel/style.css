@@ -1,0 +1,121 @@
+/* style.css */
+.embracing {
+  width: auto;
+  height: auto;
+  padding: 2em 0;
+}
+
+.embracing .containers {
+  width: 100%;
+  max-width: 80em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.embracing .swiper {
+  width: 100%;
+  height: 20em;
+  border: 0.1em solid #bbb9b9;
+  border-radius: 1em;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1)
+}
+
+.embracing .img-item {
+  font-size: 0.6em; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 33em; 
+  gap: 1em;
+  background-color: #FFF;
+}
+
+.embracing .img-item img.slide-item {
+  width: 100%;
+  height: auto;
+  max-height: 10em; 
+  object-fit: contain;
+}
+
+.embracing .containers p{
+  font-size: 1.5em;
+}
+
+.embracing .btn-comp {
+  text-decoration: none;
+  font-size: 1em;
+  border: none;
+  border-radius: 0.6em;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7em;
+  height: 3em;
+  background: linear-gradient(45deg, #FF2500, #FF7100);
+}
+
+.embracing .link-product { 
+  border: none; 
+  width: 100%; 
+  text-decoration: none;
+  color: #000;
+}
+.embracing .link-product:hover p{
+  color: #0800fc;
+}
+
+
+/* Modal */
+.embracing .modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.embracing .modal-content {
+  background-color: #fff;
+  padding: 1.2em; 
+  border-radius: 0.6em; 
+  max-width: 31em; 
+  width: 90%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.embracing .close {
+  position: absolute;
+  top: 0.6em;
+  right: 0.6em;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.embracing .modal-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.embracing .modal-content h1, .modal-content p {
+  margin: 0.6em 0;
+  text-align: center;
+}
+
+@media screen and (max-width:640px){
+  .embracing .containers h1{
+    font-size: 1.5em;
+  }
+}

@@ -24,12 +24,23 @@ const Eletronicos = () => {
           <div className="Prod-grid">
             <div className="Prod">
               <h1>Gabinete gamer</h1>
-              <img src="assetss/imagens/Computadores/pccc.jpg" alt="Vectra 94/95 2.0 8v" />
+              <img src="/assetss/imagens/Computadores/pccc.jpg" alt="Vectra 94/95 2.0 8v" />
               <p>-------------</p>
               <span>R$350,00</span>
               <button className="vis-prod" onClick={() => openModal
                 ('Gabinete gamer',
-                  'assetss/imagens/Computadores/pccc.jpg',
+                  '/assetss/imagens/Computadores/pccc.jpg',
+                  <span>'R$350,00'</span>,
+                  ['Cor: Branco ', 'Largura: 80cm', 'Altura: 80cm'])}> Ver Mais</button>
+            </div>
+            <div className="Prod">
+              <h1>Gabinete gamer</h1>
+              <img src="/assetss/imagens/Computadores/pccc.jpg" alt="Vectra 94/95 2.0 8v" />
+              <p>-------------</p>
+              <span>R$350,00</span>
+              <button className="vis-prod" onClick={() => openModal
+                ('Gabinete gamer',
+                  '/assetss/imagens/Computadores/pccc.jpg',
                   <span>'R$350,00'</span>,
                   ['Cor: Branco ', 'Largura: 80cm', 'Altura: 80cm'])}> Ver Mais</button>
             </div>
@@ -40,13 +51,13 @@ const Eletronicos = () => {
               <span>R$350,00</span>
               <button className="vis-prod" onClick={() => openModal
                 ('Gabinete gamer',
-                  'assetss/imagens/Computadores/pccc.jpg',
+                  '/assetss/imagens/Computadores/pccc.jpg',
                   <span>'R$350,00'</span>,
                   ['Cor: Branco ', 'Largura: 80cm', 'Altura: 80cm'])}> Ver Mais</button>
             </div>
             <div className="Prod">
               <h1>Gabinete gamer</h1>
-              <img src="assetss/imagens/Computadores/pccc.jpg" alt="Vectra 94/95 2.0 8v" />
+              <img src="/assetss/imagens/Computadores/pccc.jpg" alt="Vectra 94/95 2.0 8v" />
               <p>-------------</p>
               <span>R$350,00</span>
               <button className="vis-prod" onClick={() => openModal
@@ -57,7 +68,29 @@ const Eletronicos = () => {
             </div>
             <div className="Prod">
               <h1>Gabinete gamer</h1>
-              <img src="assetss/imagens/Computadores/pccc.jpg" alt="Vectra 94/95 2.0 8v" />
+              <img src="/assetss/imagens/Computadores/pccc.jpg" alt="Vectra 94/95 2.0 8v" />
+              <p>-------------</p>
+              <span>R$350,00</span>
+              <button className="vis-prod" onClick={() => openModal
+                ('Gabinete gamer',
+                  '/assetss/imagens/Computadores/pccc.jpg',
+                  <span>'R$350,00'</span>,
+                  ['Cor: Branco ', 'Largura: 80cm', 'Altura: 80cm'])}> Ver Mais</button>
+            </div>
+            <div className="Prod">
+              <h1>Gabinete gamer</h1>
+              <img src="/assetss/imagens/Computadores/pccc.jpg" alt="Vectra 94/95 2.0 8v" />
+              <p>-------------</p>
+              <span>R$350,00</span>
+              <button className="vis-prod" onClick={() => openModal
+                ('Gabinete gamer',
+                  '/assetss/imagens/Computadores/pccc.jpg',
+                  <span>'R$350,00'</span>,
+                  ['Cor: Branco ', 'Largura: 80cm', 'Altura: 80cm'])}> Ver Mais</button>
+            </div>
+            <div className="Prod">
+              <h1>Gabinete gamer</h1>
+              <img src="/assetss/imagens/Computadores/pccc.jpg" alt="Vectra 94/95 2.0 8v" />
               <p>-------------</p>
               <span>R$350,00</span>
               <button className="vis-prod" onClick={() => openModal
@@ -68,56 +101,23 @@ const Eletronicos = () => {
             </div>
             <div className="Prod">
               <h1>Gabinete gamer</h1>
-              <img src="assetss/imagens/Computadores/pccc.jpg" alt="Vectra 94/95 2.0 8v" />
+              <img src="/assetss/imagens/Computadores/pccc.jpg" alt="Vectra 94/95 2.0 8v" />
               <p>-------------</p>
               <span>R$350,00</span>
               <button className="vis-prod" onClick={() => openModal
                 ('Gabinete gamer',
-                  'assetss/imagens/Computadores/pccc.jpg',
+                  '/assetss/imagens/Computadores/pccc.jpg',
                   <span>'R$350,00'</span>,
                   ['Cor: Branco ', 'Largura: 80cm', 'Altura: 80cm'])}> Ver Mais</button>
             </div>
             <div className="Prod">
               <h1>Gabinete gamer</h1>
-              <img src="assetss/imagens/Computadores/pccc.jpg" alt="Vectra 94/95 2.0 8v" />
+              <img src="/assetss/imagens/Computadores/pccc.jpg" alt="Vectra 94/95 2.0 8v" />
               <p>-------------</p>
               <span>R$350,00</span>
               <button className="vis-prod" onClick={() => openModal
                 ('Gabinete gamer',
-                  'assetss/imagens/Computadores/pccc.jpg',
-                  <span>'R$350,00'</span>,
-                  ['Cor: Branco ', 'Largura: 80cm', 'Altura: 80cm'])}> Ver Mais</button>
-            </div>
-            <div className="Prod">
-              <h1>Gabinete gamer</h1>
-              <img src="assetss/imagens/Computadores/pccc.jpg" alt="Vectra 94/95 2.0 8v" />
-              <p>-------------</p>
-              <span>R$350,00</span>
-              <button className="vis-prod" onClick={() => openModal
-                ('Gabinete gamer',
-                  'assetss/imagens/Computadores/pccc.jpg',
-                  <span>'R$350,00'</span>,
-                  ['Cor: Branco ', 'Largura: 80cm', 'Altura: 80cm'])}> Ver Mais</button>
-            </div>
-            <div className="Prod">
-              <h1>Gabinete gamer</h1>
-              <img src="assetss/imagens/Computadores/pccc.jpg" alt="Vectra 94/95 2.0 8v" />
-              <p>-------------</p>
-              <span>R$350,00</span>
-              <button className="vis-prod" onClick={() => openModal
-                ('Gabinete gamer',
-                  'assetss/imagens/Computadores/pccc.jpg',
-                  <span>'R$350,00'</span>,
-                  ['Cor: Branco ', 'Largura: 80cm', 'Altura: 80cm'])}> Ver Mais</button>
-            </div>
-            <div className="Prod">
-              <h1>Gabinete gamer</h1>
-              <img src="assetss/imagens/Computadores/pccc.jpg" alt="Vectra 94/95 2.0 8v" />
-              <p>-------------</p>
-              <span>R$350,00</span>
-              <button className="vis-prod" onClick={() => openModal
-                ('Gabinete gamer',
-                  'assetss/imagens/Computadores/pccc.jpg',
+                  '/assetss/imagens/Computadores/pccc.jpg',
                   <span>'R$350,00'</span>,
                   ['Cor: Branco ', 'Largura: 80cm', 'Altura: 80cm'])}> Ver Mais</button>
             </div>

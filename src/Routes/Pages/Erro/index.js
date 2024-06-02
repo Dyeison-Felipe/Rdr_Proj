@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
+import './style.css';
 
-const index = () => {
+const NotFound = () => {
   return (
-    <div>index</div>
-  )
-}
+    <div className="not-found-page">
+      <div>
+        <h1>404</h1>
+        <img src='/404.png' alt=''/>
+      </div>
+      <p >Página Não Encontrada, SORRY</p>
+      <a href="/" >Voltar para a Página Inicial</a>
+    </div>
+  );
+};
 
-export default index
+export default NotFound;

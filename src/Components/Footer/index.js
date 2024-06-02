@@ -1,23 +1,19 @@
 import React from "react";
-import './style.css'
-import Facebook from '../../Images/Site/facebook.png'
-import Instagram from '../../Images/Site/instagram.png'
-import Twitter from '../../Images/Site/twitter.png'
-import Logo from "../../Images/Site/logo.png"
 
+import './style.css'
 
 const Footer = () => {
   return (
     <footer id="rodape">
       <div id="redes-sociais">
-        <img src={Facebook} alt="" />
-        <img src={Twitter} alt="" />
-        <img src={Instagram} alt="" />
+        <img src="/facebook.png" alt="logo facebook" />
+        <img src="/twitter.png" alt="logo twitter / X" />
+        <img src="/instagram.png" alt="logo instagram" />
       </div>
 
       <h2 id="Copy">₢Copyright - todos os direitos reservados a RDR</h2>
 
-      <img src={Logo} alt="" />
+      <img src="/logo.png" alt="" />
     </footer>
   );
 };

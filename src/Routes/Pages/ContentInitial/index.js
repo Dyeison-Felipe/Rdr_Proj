@@ -1,142 +1,96 @@
 import { Link } from "react-router-dom";
-import HeaderInitial from "../../../Components/HeaderInitial";
-import Fone from "../../../Images/Computadores/fone.jpg";
+import HeaderInitial from "../../../Components/HeaderInitial/index";
+import Cars from "../Carousel/cars";
+import Electronics from "../Carousel/electronics";
+import Clothers from "../Carousel/clothes";
+
 import "./style.css";
 
 const index = () => {
   return (
-    <div className="Dyeison1">
+    <div className="envolv">
       <HeaderInitial />
+
+      <h1>Destaques</h1>
 
       <div className="product-container">
         <div className="product">
-          <img src={Fone} alt="Fone de ouvido gamer" />
-          <h3>Fone Gamer </h3>
-          <p>R$330,00</p>
-          <Link to="" className="btn-content">
+          <img
+            src="/Images/ImagesDyeison/Electronics/AppleWatch.png"
+            alt="Fone de ouvido gamer"
+          />
+          <h3>AppleWatch SE</h3>
+          <div>
+            <p>de <del>R$3.699,00</del></p>
+            <p>por R$2.589,30</p>
+          </div>
+          <Link to="/login" className="btn-emphasis">
             Comprar
           </Link>
         </div>
 
         <div className="product">
-          <img src={Fone} alt="Fone de ouvido gamer" />
-          <h3>Fone Gamer</h3>
-          <p>R$330,00</p>
-          <Link to="" className="btn-content">
+          <img
+            src="/Images/ImagesDyeison/Electronics/JBL Pulse 5 BLK.png"
+            alt="Caixa de som Jbl pulse 5"
+          />
+          <h3>JBL Pulse 5</h3>
+          <div>
+            <p>de <del>R$1.617,00</del></p>
+            <p>por R$1.374,45</p>
+          </div>
+          <Link to="/login" className="btn-emphasis">
             Comprar
           </Link>
         </div>
 
         <div className="product">
-          <img src={Fone} alt="Fone de ouvido gamer" />
-          <h3>Fone Gamer</h3>
-          <p>R$330,00</p>
-          <Link to="" className="btn-content">
+          <img
+            src="/Images/ImagesDyeison/Electronics/Poco x6 Pro.png"
+            alt="Celular Poco X6 Pro"
+          />
+          <h3>Poco X6 Pro</h3>
+          <div>
+            <p>de <del>R$2.250,00</del></p>
+            <p>por R$1.912,50</p>
+          </div>
+          <Link to="/login" className="btn-emphasis">
             Comprar
           </Link>
         </div>
 
         <div className="product">
-          <img src={Fone} alt="Fone de ouvido gamer" />
-          <h3>Fone Gamer</h3>
-          <p>R$330,00</p>
-          <Link to="" className="btn-content">
+          <img
+            src="/Images/ImagesDyeison/Electronics/Iphone 15 Pro Max.png"
+            alt="Celular iphone 15 Pro Max"
+          />
+          <h3>Iphone 15 Pro Max</h3>
+          <div>
+            <p>de <del>R$10.999,00</del></p>
+            <p>por R$9.349,15</p>
+          </div>
+          <Link to="/login" className="btn-emphasis">
             Comprar
           </Link>
         </div>
       </div>
-      <div className="texto">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio qui
-          aperiam recusandae. Voluptas minus perspiciatis reiciendis! Rerum,
-          velit nostrum dolore quis officia maiores doloribus, quo ex ullam
-          aliquam delectus doloremque. Quae, culpa aspernatur. Non cupiditate
-          fuga rerum. Ex adipisci provident odio quo asperiores nihil natus
-          corrupti deleniti, officia ea in quisquam eos, earum atque harum
-          quibusdam? Provident aperiam exercitationem veniam officia error alias
-          excepturi. Ipsa ducimus molestiae sit odio fuga rem, earum voluptatem
-          rerum dolorum! Accusamus, enim. Temporibus voluptatum voluptatem minus
-          consectetur animi facere iusto aliquid eos ut doloremque, saepe
-          tempora aut fuga expedita nesciunt tempore ea sapiente porro quasi.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio qui
-          aperiam recusandae. Voluptas minus perspiciatis reiciendis! Rerum,
-          velit nostrum dolore quis officia maiores doloribus, quo ex ullam
-          aliquam delectus doloremque. Quae, culpa aspernatur. Non cupiditate
-          fuga rerum. Ex adipisci provident odio quo asperiores nihil natus
-          corrupti deleniti, officia ea in quisquam eos, earum atque harum
-          quibusdam? Provident aperiam exercitationem veniam officia error alias
-          excepturi. Ipsa ducimus molestiae sit odio fuga rem, earum voluptatem
-          rerum dolorum! Accusamus, enim. Temporibus voluptatum voluptatem minus
-          consectetur animi facere iusto aliquid eos ut doloremque, saepe
-          tempora aut fuga expedita nesciunt tempore ea sapiente porro quasi.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio qui
-          aperiam recusandae. Voluptas minus perspiciatis reiciendis! Rerum,
-          velit nostrum dolore quis officia maiores doloribus, quo ex ullam
-          aliquam delectus doloremque. Quae, culpa aspernatur. Non cupiditate
-          fuga rerum. Ex adipisci provident odio quo asperiores nihil natus
-          corrupti deleniti, officia ea in quisquam eos, earum atque harum
-          quibusdam? Provident aperiam exercitationem veniam officia error alias
-          excepturi. Ipsa ducimus molestiae sit odio fuga rem, earum voluptatem
-          rerum dolorum! Accusamus, enim. Temporibus voluptatum voluptatem minus
-          consectetur animi facere iusto aliquid eos ut doloremque, saepe
-          tempora aut fuga expedita nesciunt tempore ea sapiente porro quasi.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio qui
-          aperiam recusandae. Voluptas minus perspiciatis reiciendis! Rerum,
-          velit nostrum dolore quis officia maiores doloribus, quo ex ullam
-          aliquam delectus doloremque. Quae, culpa aspernatur. Non cupiditate
-          fuga rerum. Ex adipisci provident odio quo asperiores nihil natus
-          corrupti deleniti, officia ea in quisquam eos, earum atque harum
-          quibusdam? Provident aperiam exercitationem veniam officia error alias
-          excepturi. Ipsa ducimus molestiae sit odio fuga rem, earum voluptatem
-          rerum dolorum! Accusamus, enim. Temporibus voluptatum voluptatem minus
-          consectetur animi facere iusto aliquid eos ut doloremque, saepe
-          tempora aut fuga expedita nesciunt tempore ea sapiente porro quasi.
 
+      <div className="sponsorship">
+        <img
+          src="/Desconto.png"
+          alt="Desconto especial"
+          className="patrocinio"
+        />
+        <p className="discount-text">Todos nosso produtos com desconto disponíveis até 12/06/2024 com o cupom  <span>RDR-Vendas</span></p>
+        <p className="discount-text">
+          Não perca nossas ofertas especiais! Economize agora!
         </p>
       </div>
 
-      <div className="plans-container">
-        <div className="plan-card">
-          <h3>Plano Básico</h3>
-          <p className="price">R$ 29,90/mês</p>
-          <ul>
-            <li>2 Anuncio</li>
-            <li>Suporte Básico</li>
-            <li>Suporte Prioritário</li>
-            <li>Retorna 70% do valor do produto</li>
-          </ul>
-          <button className="buy-button">Comprar</button>
-        </div>
-        <div className="plan-card">
-          <h3>Plano Padrão</h3>
-          <p className="price">R$ 59,90/mês</p>
-          <ul>
-            <li>5 Anuncios</li>
-            <li>Suporte Prioritário</li>
-            <li>Retorna 80% do valor do produto</li>
-          </ul>
-          <button className="buy-button">Comprar</button>
-        </div>
-        <div className="plan-card">
-          <h3>Plano Premium</h3>
-          <p className="price">R$ 99,90/mês</p>
-          <ul>
-            <li>15 Anuncios</li>
-            <li>Suporte 24/7</li>
-            <li>Retorno de 90 % do valor do produto</li>
-          </ul>
-          <button className="buy-button">Comprar</button>
-        </div>
-        <div className="plan-card">
-          <h3>Plano Empresarial</h3>
-          <p className="price">R$ 199,90/mês</p>
-          <ul>
-            <li>Anuncios Ilimitados</li>
-            <li>Gerente de Anuncios Dedicado</li>
-            <li>Retorno de 98% do valor do </li>
-          </ul>
-          <button className="buy-button">Comprar</button>
-        </div>
+      <div className="carousel">
+        <Cars />
+        <Electronics />
+        <Clothers />
       </div>
     </div>
   );

@@ -39,13 +39,13 @@ const Home = () => {
                 <p>Confira nossas ofertas especiais!</p>
               </div>
             </a>
-            <a href="https://www.amazon.com.br/s?k=prime+day&adgrpid=107358558659&hvadid=595773110157&hvdev=c&hvlocphy=1031775&hvnetw=g&hvqmt=e&hvrand=4086265037829050227&hvtargid=kwd-131638924377&hydadcr=26108_13514925&tag=hydrbrgk-20&ref=pd_sl_9f61m75o0_e">
+            <a href="https://www.amazon.com.br/s?k=prime+day&adgrpid=107358558659&hvadid=595773110157&hvdev=c&hvlocphy=1031775&hvnetw=g&hvqmt=e&hvrand=4086265037829050227&hvtargid=kwd-131638924377&hydadcr=26108_13514925&tag=hydrbrgk-20&ref=pd_sl_9f61m75o0_e" target="_blank">
               <div className="banner">
                 <img src="/assetss/imagens/carros/banner2.jpg" alt="Banner Promocional" />
                 <p>Confira nossas ofertas especiais!</p>
               </div>
             </a>
-            <a href="https://www.mercadolivre.com.br/">
+            <a href="https://www.mercadolivre.com.br/" target="_blank">
               <div className="banner">
                 <img src="/assetss/imagens/carros/banner3.jpg" alt="Banner Promocional" />
                 <p>Confira nossas ofertas especiais!</p>

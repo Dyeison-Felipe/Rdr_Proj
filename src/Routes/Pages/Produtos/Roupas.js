@@ -26,12 +26,45 @@ const Roupas = () => {
           <div className="Prod-grid">
             <div className="Prod">
               <h1>Moleton Masculino</h1>
-              <img src="assetss/imagens/Roupas/moleton.jpg" alt="Vectra 94/95 2.0 8v" />
+              <img src="/assetss/imagens/Roupas/moleton.jpg" alt="Vectra 94/95 2.0 8v" />
               <p>-------------</p>
               <span>R$190,00</span>
               <button className="vis-prod" onClick={() => openModal
                 ('Gabinete gamer',
-                  'assetss/imagens/Roupas/moleton.jpg',
+                  '/assetss/imagens/Roupas/moleton.jpg',
+                  <span>'R$190,00'</span>,
+                  ['Cor: Preto ', 'tamanho: M', 'Altura: 70cm'])}> Ver Mais</button>
+            </div>
+            <div className="Prod">
+              <h1>Moleton Masculino</h1>
+              <img src="/assetss/imagens/Roupas/moleton.jpg" alt="Vectra 94/95 2.0 8v" />
+              <p>-------------</p>
+              <span>R$190,00</span>
+              <button className="vis-prod" onClick={() => openModal
+                ('Gabinete gamer',
+                  '/assetss/imagens/Roupas/moleton.jpg',
+                  <span>'R$190,00'</span>,
+                  ['Cor: Preto ', 'tamanho: M', 'Altura: 70cm'])}> Ver Mais</button>
+            </div>
+            <div className="Prod">
+              <h1>Moleton Masculino</h1>
+              <img src="/assetss/imagens/Roupas/moleton.jpg" alt="Vectra 94/95 2.0 8v" />
+              <p>-------------</p>
+              <span>R$190,00</span>
+              <button className="vis-prod" onClick={() => openModal
+                ('Gabinete gamer',
+                  '/assetss/imagens/Roupas/moleton.jpg',
+                  <span>'R$190,00'</span>,
+                  ['Cor: Preto ', 'tamanho: M', 'Altura: 70cm'])}> Ver Mais</button>
+            </div>
+            <div className="Prod">
+              <h1>Moleton Masculino</h1>
+              <img src="/assetss/imagens/Roupas/moleton.jpg" alt="Vectra 94/95 2.0 8v" />
+              <p>-------------</p>
+              <span>R$190,00</span>
+              <button className="vis-prod" onClick={() => openModal
+                ('Gabinete gamer',
+                  '/assetss/imagens/Roupas/moleton.jpg',
                   <span>'R$190,00'</span>,
                   ['Cor: Preto ', 'tamanho: M', 'Altura: 70cm'])}> Ver Mais</button>
             </div>
@@ -42,84 +75,51 @@ const Roupas = () => {
               <span>R$190,00</span>
               <button className="vis-prod" onClick={() => openModal
                 ('Gabinete gamer',
-                  'assetss/imagens/Roupas/moleton.jpg',
+                  '/assetss/imagens/Roupas/moleton.jpg',
                   <span>'R$190,00'</span>,
                   ['Cor: Preto ', 'tamanho: M', 'Altura: 70cm'])}> Ver Mais</button>
             </div>
             <div className="Prod">
               <h1>Moleton Masculino</h1>
-              <img src="assetss/imagens/Roupas/moleton.jpg" alt="Vectra 94/95 2.0 8v" />
+              <img src="/assetss/imagens/Roupas/moleton.jpg" alt="Vectra 94/95 2.0 8v" />
               <p>-------------</p>
               <span>R$190,00</span>
               <button className="vis-prod" onClick={() => openModal
                 ('Gabinete gamer',
-                  'assetss/imagens/Roupas/moleton.jpg',
+                  '/assetss/imagens/Roupas/moleton.jpg',
                   <span>'R$190,00'</span>,
                   ['Cor: Preto ', 'tamanho: M', 'Altura: 70cm'])}> Ver Mais</button>
             </div>
             <div className="Prod">
               <h1>Moleton Masculino</h1>
-              <img src="assetss/imagens/Roupas/moleton.jpg" alt="Vectra 94/95 2.0 8v" />
+              <img src="/assetss/imagens/Roupas/moleton.jpg" alt="Vectra 94/95 2.0 8v" />
               <p>-------------</p>
               <span>R$190,00</span>
               <button className="vis-prod" onClick={() => openModal
                 ('Gabinete gamer',
-                  'assetss/imagens/Roupas/moleton.jpg',
+                  '/assetss/imagens/Roupas/moleton.jpg',
                   <span>'R$190,00'</span>,
                   ['Cor: Preto ', 'tamanho: M', 'Altura: 70cm'])}> Ver Mais</button>
             </div>
             <div className="Prod">
               <h1>Moleton Masculino</h1>
-              <img src="assetss/imagens/Roupas/moleton.jpg" alt="Vectra 94/95 2.0 8v" />
+              <img src="/assetss/imagens/Roupas/moleton.jpg" alt="Vectra 94/95 2.0 8v" />
               <p>-------------</p>
               <span>R$190,00</span>
               <button className="vis-prod" onClick={() => openModal
                 ('Gabinete gamer',
-                  'assetss/imagens/Roupas/moleton.jpg',
+                  '/assetss/imagens/Roupas/moleton.jpg',
                   <span>'R$190,00'</span>,
                   ['Cor: Preto ', 'tamanho: M', 'Altura: 70cm'])}> Ver Mais</button>
             </div>
             <div className="Prod">
               <h1>Moleton Masculino</h1>
-              <img src="assetss/imagens/Roupas/moleton.jpg" alt="Vectra 94/95 2.0 8v" />
+              <img src="/assetss/imagens/Roupas/moleton.jpg" alt="Vectra 94/95 2.0 8v" />
               <p>-------------</p>
               <span>R$190,00</span>
               <button className="vis-prod" onClick={() => openModal
                 ('Gabinete gamer',
-                  'assetss/imagens/Roupas/moleton.jpg',
-                  <span>'R$190,00'</span>,
-                  ['Cor: Preto ', 'tamanho: M', 'Altura: 70cm'])}> Ver Mais</button>
-            </div>
-            <div className="Prod">
-              <h1>Moleton Masculino</h1>
-              <img src="assetss/imagens/Roupas/moleton.jpg" alt="Vectra 94/95 2.0 8v" />
-              <p>-------------</p>
-              <span>R$190,00</span>
-              <button className="vis-prod" onClick={() => openModal
-                ('Gabinete gamer',
-                  'assetss/imagens/Roupas/moleton.jpg',
-                  <span>'R$190,00'</span>,
-                  ['Cor: Preto ', 'tamanho: M', 'Altura: 70cm'])}> Ver Mais</button>
-            </div>
-            <div className="Prod">
-              <h1>Moleton Masculino</h1>
-              <img src="assetss/imagens/Roupas/moleton.jpg" alt="Vectra 94/95 2.0 8v" />
-              <p>-------------</p>
-              <span>R$190,00</span>
-              <button className="vis-prod" onClick={() => openModal
-                ('Gabinete gamer',
-                  'assetss/imagens/Roupas/moleton.jpg',
-                  <span>'R$190,00'</span>,
-                  ['Cor: Preto ', 'tamanho: M', 'Altura: 70cm'])}> Ver Mais</button>
-            </div>
-            <div className="Prod">
-              <h1>Moleton Masculino</h1>
-              <img src="assetss/imagens/Roupas/moleton.jpg" alt="Vectra 94/95 2.0 8v" />
-              <p>-------------</p>
-              <span>R$190,00</span>
-              <button className="vis-prod" onClick={() => openModal
-                ('Gabinete gamer',
-                  'assetss/imagens/Roupas/moleton.jpg',
+                  '/assetss/imagens/Roupas/moleton.jpg',
                   <span>'R$190,00'</span>,
                   ['Cor: Preto ', 'tamanho: M', 'Altura: 70cm'])}> Ver Mais</button>
             </div>

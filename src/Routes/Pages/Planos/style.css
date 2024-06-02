@@ -1,0 +1,65 @@
+.Dyeison2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Dyeison2 .text-plan{
+  max-width: 80em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding-top: 2em;
+  flex-wrap: wrap;
+  padding: 2em;
+}
+
+.Dyeison2 .text-plan h1{
+  font-size:2em;
+}
+
+.Dyeison2 .text-plan p, ul,h4{
+  font-size: 1.2em;
+  padding: 0 10em;
+  color: #000000;
+}
+
+.Dyeison2 .text-plan h2{
+  font-size: 1.7em;
+}
+
+.Dyeison2 .our-plans{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:850px){
+  .Dyeison2 .text-plan p, ul,h4{
+    font-size: 1em;
+    padding: 0 4em;
+  }
+}
+
+@media screen and (max-width:640px){
+  .Dyeison2 .text-plan h1{
+    font-size: 1.3em;
+  }
+
+  .Dyeison2 .text-plan p,ul,h4{
+    font-size: 1em;
+    padding: 0;
+  }
+
+  .Dyeison2 .text-plan h2{
+    font-size: 1.4em;
+  }
+}
+

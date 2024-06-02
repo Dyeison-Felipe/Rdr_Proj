@@ -1,22 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Knewave&family=Nunito:wght@400;600;700&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body, html {
-  font-family: Nunito, sans-serif;
-}
-
-.container-access {
+.Dyeison1 .container-access {
   width: 100%;
+  min-height: 100vh;
   margin: 0 auto;
-  background-image: url("../../../assets/pexels-rodrigo-souza-1275988-2531709.jpg");
+  background-image: url("../../../assets/fundo_por.jpg");
   background-size: cover;
-} 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
-.container-login {
+.Dyeison1 .container-login {
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -26,7 +21,7 @@ body, html {
   padding: 1em;
 }
 
-.wrap-login {
+.Dyeison1 .wrap-login {
   width: 24em; 
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 0.6em;
@@ -35,11 +30,11 @@ body, html {
   box-shadow: 0 0.3em 0.6em 0 rgba(0, 0, 0, 0.2); 
 }
 
-.login-form {
+.Dyeison1 .login-form {
   width: 100%;
 }
 
-.login-form-title {
+.Dyeison1 .login-form-title {
   font-family: Nunito, sans-serif;
   display: block;
   font-size: 1.8em;
@@ -48,18 +43,18 @@ body, html {
   text-align: center;
 }
 
-.login-form-title img {
+.Dyeison1 .login-form-title img {
   width: 5.6em; 
 }
 
-.wrap-input {
+.Dyeison1 .wrap-input {
   width: 100%;
   position: relative;
   border-bottom: 0.1em solid #adadad; 
   margin-bottom: 2.3em; 
 }
 
-.input {
+.Dyeison1 .input {
   font-size: 1em; 
   color: #fff;
   line-height: 1.2;
@@ -72,7 +67,7 @@ body, html {
   font-family: Nunito, sans-serif;
 }
 
-.focus-input {
+.Dyeison1 .focus-input {
   position: absolute;
   display: block;
   width: 100%;
@@ -84,7 +79,7 @@ body, html {
   font-family: Nunito, sans-serif;
 }
 
-.focus-input::before {
+.Dyeison1 .focus-input::before {
   content: "";
   display: block;
   position: absolute;
@@ -96,7 +91,7 @@ body, html {
   background: linear-gradient(45deg, #FF2500, #FF7100);
 }
 
-.focus-input::after {
+.Dyeison1 .focus-input::after {
   font-family: Nunito, sans-serif;
   font-size: 1em; 
   color: #999999;
@@ -111,34 +106,34 @@ body, html {
   transition: all 0.4s;
 }
 
-.input:focus {
+.Dyeison1 .input:focus {
   outline: 0;
 }
 
-.input:focus + .focus-input::after {
+.Dyeison1 .input:focus + .focus-input::after {
   top: -0.93em; 
 }
 
-.input:focus + .focus-input::before {
+.Dyeison1 .input:focus + .focus-input::before {
   width: 100%;
 }
 
-.has-val + .focus-input::after {
+.Dyeison1 .has-val + .focus-input::after {
   top: -0.93em; 
 }
 
-.has-val + .focus-input::before {
+.Dyeison1 .has-val + .focus-input::before {
   width: 100%;
 }
 
-.container-login-form-btn {
+.Dyeison1 .container-login-form-btn {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 0.81em; 
 }
 
-.login-form-btn {
+.Dyeison1 .login-form-btn {
   text-decoration: none;
   font-size: 1em; 
   border: none;
@@ -154,27 +149,31 @@ body, html {
   background: linear-gradient(45deg, #FF2500, #FF7100);
 }
 
-.login-form-btn:hover {
+.Dyeison1 .login-form-btn:hover {
   cursor: pointer;
 }
 
-.text-center {
+.Dyeison1 .text-center {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 3em; 
 }
 
-.txt1 {
+.Dyeison1 .txt1 {
   font-size: 0.8em; 
   color: #adadad;
   line-height: 1.5;
   padding-right: 0.3em; 
 }
 
-.txt2 {
+.Dyeison1 .txt2 {
   font-size: 0.8em; 
   color: #6a7dfe;
   line-height: 1.5;
   text-decoration: none;
+}
+
+.Dyeison1 .user p{
+  color: #FFF;
 }

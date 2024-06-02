@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "../HeaderInitial/style.css";
 import { FiAlignJustify } from "react-icons/fi";
-import Logo from "../../Images/Site/logo.png";
+
+import "../HeaderInitial/style.css";
 
 const Header = () => {
   const [categoryOpen, setCategoryOpen] = useState(false);
@@ -15,9 +15,9 @@ const Header = () => {
     <header className="Dyeison">
       <div className="container">
         <div className="logo">
-          <img src={Logo} alt="" />
+          <img src="/logo.png" alt="" />
         </div>
-        <div className="menu">
+        <div className="navbar">
           <div className="search">
             <input type="text" placeholder="Pesquisar..." />
             <Link className="btn-link" to="">
@@ -26,24 +26,54 @@ const Header = () => {
           </div>
           <nav>
             <Link to="/">Home</Link>
-            <Link to="">Planos</Link>
-            <Link to="">Contato</Link>
+            <Link to="/planos">Planos</Link>
+
+            <Link to="https://wa.me/+5542988403565" target="_Blank">
+              Contato
+            </Link>
+            <Link to="/shop-cart">Carrinho</Link>
             <div className="category-menu">
               <Link to="#" onClick={toggleCategoryMenu}>
                 Categoria
               </Link>
               {categoryOpen && (
                 <div className="submenu">
-                  <Link to="/carro">Carros</Link>
+                  <Link to="/produtos">voltar</Link>
+                  <Link to="/carros">Carros</Link>
                   <Link to="/roupas">Roupas</Link>
-                  <Link to="/eletro">Computadores</Link>
+                  <Link to="/eletros">Eletônicos</Link>
                 </div>
               )}
             </div>
           </nav>
         </div>
-        <div className="icon">
-          <FiAlignJustify />
+
+        <div className="btn-lateral">
+          <div className="category-menu">
+            <Link to="#" className="icon" onClick={toggleCategoryMenu}>
+              <FiAlignJustify />
+            </Link>
+            {categoryOpen && (
+              <div className="submenu">
+                <Link to="/">Home</Link>
+                <Link to="/planos">Planos</Link>
+                <Link to="https://wa.me/42988403565" target="_Blank">
+                  Contato
+                </Link>
+                <Link className="btn-link" to="/login">
+                  Login
+                </Link>
+
+                <Link className="btn-link" to="/register">
+                  Cadastro
+                </Link>
+
+                <Link className="btn-link" to="/headerPos">
+                  Convidado
+                </Link>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </header>

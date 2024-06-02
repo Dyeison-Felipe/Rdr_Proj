@@ -1,13 +1,13 @@
 import "./style.css";
 
-import HeaderInitial from "../../../Components/HeaderInitial";
+import HeaderContent from "../../../Components/HeaderContent";
 
 
 export default function ShopCart(){
     return(
     
     <div className="renann">
-      <HeaderInitial />
+      <HeaderContent />
 
             <><div id="cabeçalho=principal-c">
             <h1 className="meu-carrinho-c"> <svg xmlns="http://www.w3.org/2000/svg" className="imagem-vendas-c bi bi-cart4"
@@ -65,7 +65,7 @@ export default function ShopCart(){
 
                     <div className="classe-primeiracoluna-c primeira-div-c">
                         <div>
-                            <img className="imagem-produto-c" src="../ProjetoVendas/assets/imagens/Renault Clio 1.0 16v.jpeg" />
+                            <img className="imagem-produto-c" src="/Renault Clio 1.0 16v.jpeg" />
                         </div>
                         <div className="descricao-produto-c">
                             <div className="informacao-produto-c">
