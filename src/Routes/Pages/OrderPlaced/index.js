@@ -1,10 +1,10 @@
-import HeaderInitial from "../../../Components/HeaderInitial";
+import HeaderContent from "../../../Components/HeaderContent";
 import './style.css';
 
 export default function OrderPlaced(){
     return(
         <div className="renann">
-            <HeaderInitial/>
+            <HeaderContent/>
             <div className="apresentacao-final">
                 <h1>Pedido Realizado</h1>
                 <strong>Pedido: #987654</strong> <br/>
