@@ -22,7 +22,7 @@ export default function CarComputer() {
     { id: "5", image: "/Images/ImagesDyeison/Cars/Celta.png", price: "R$ 25.000", title: "Celta 1.0" },
     {id: "6", image: "/Images/ImagesDyeison/Cars/Lambo.png", price: "R$ 6.890.000", title: "Lamborghini Aventador",},
     { id: "7", image: "/Images/ImagesDyeison/Cars/Mobi.png", price: "R$ 72.000", title: "Fiat Mobi" },
-    { id: "8", image: "/Images/ImagesDyeison/Cars/golf.jpg", price: "R$ 109.000", title: "Saveiro Pancadão" },
+    { id: "8", image: "/Images/ImagesDyeison/Cars/Saveiro.png", price: "R$ 109.000", title: "Saveiro Pancadão" },
   ];
 
   const handleProductClick = (product) => {
