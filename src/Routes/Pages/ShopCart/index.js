@@ -1,7 +1,6 @@
 import "./style.css";
 
 import HeaderContent from "../../../Components/HeaderContent";
-import { Link } from "react-router-dom";
 
 export default function ShopCart() {
   return (
